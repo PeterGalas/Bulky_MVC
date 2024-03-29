@@ -8,6 +8,7 @@ namespace BulkyWeb.Models
         [Key]
         public int Id { get; set; }
         [Required]
+
         [DisplayName("Category Name")]
         public string Name { get; set; }
 
